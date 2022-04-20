@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>ScieSaw</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="title" id="title">ScieSaw</div>
+    <form name="chronoForm" class="chrono"> 
+        <input type="text" name="chronotime" id="chronotime" value="0:00:00:00" readonly/>
+       <br>
+        <span class='start-btn' onClick="chronoStart()" id="start" name="startstop" value="start!" >START</span>
+        <p class="LastScore" id="lastScore">Meilleur score</p>
+      <div id="BestScore"></div>
+    </form>
+
+
+    <img id="scie" hidden="true" src="./scie.png" alt="test">
+    <img id="test" hidden="true" src="./test.png" alt="test">
+    <img id="source" hidden="true" src="./arbrbeTransp.png" alt="test">
+    <canvas id="canvas" style="background-size: cover;"></canvas>
+<div class="Author">&copy; Lilian Vasconcelos & Tom Lebrun</div>
+    <script src="index.js"></script>
+  </body>
+</html>

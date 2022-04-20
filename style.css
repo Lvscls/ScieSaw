@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap%22");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap%22");
+
+html, body {
+    margin: 0;
+    
+  }
+  
+  html {
+    font-family: "VT323", monospace;
+    height: 100%;
+  }
+  
+  body {
+    overflow: hidden;
+    height: inherit;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    letter-spacing: -1px;
+    position: absolute;
+    margin: 0;
+    top: -4px;
+    right: 5px;
+  
+    color: transparent;
+    text-shadow: 0 0 4px white;
+  }
+  
+  p {
+    position: absolute;
+    margin: 0;
+    top: 35px;
+    right: 5px;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+  }
+    
+
+.chrono{
+    position: absolute;
+    top: 0;
+    left: 45%;
+}
+ 
+.chrono .start{
+
+    padding: 20px 40px;
+    position: absolute;
+    top: 400px;
+    left: 40%;
+    border-radius: 10px;
+    background-color: mediumaquamarine;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.chrono .start:hover{
+    background-color:#fff;
+}
+.LastScore{
+    position: fixed;
+    top: 10px;
+    right: 15px;
+}
+#lastScoreInput{
+    position: fixed;
+    top: 30px;
+    right: 15px;
+}
+
+
+.start-btn{
+  position: absolute;
+  top: 300px;
+  display: block;
+  width: 100px;
+  padding: 2px 12px 4px;
+  font-size: 24px;
+  border: solid 2px #ccc;
+  border-radius: 8px;
+  background-color: #215718;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.5s;
+}
+
+  
+
+body{
+  background-image: url("https://img.freepik.com/free-vector/vector-images-forest-daytime_46176-155.jpg?w=2000");
+  background-size: cover;
+}
+#BestScore{
+  position: fixed;
+  top: 35px;
+  right: 25px;
+  color: rgb(94, 94, 94);
+}
+.Author{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.title
+{
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
